@@ -1,7 +1,7 @@
 # Regresión Lineal con Machine Learning
 
-# Regresión Lineal con Machine Learning
-
-![Logo de Regresión Lineal](https://i.imgur.com/tB4NH9B.png)
+Para estos modelos utilizaremos lo sieguiente:
+from sklearn.linear_model import LinearRegression
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/xxxxxxx)
 
 
