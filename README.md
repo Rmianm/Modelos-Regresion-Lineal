@@ -4,7 +4,7 @@
 from sklearn.model_selection import train_test_split
 ```
 
-Si tienes datasets individuales, es decir para entrenamiento y otro para test no es necesario el código de arriba, de lo contrario si para evitar Overfitting o sobreajuste en los datos por lo que el modelo se ajustaría demasiado a los datos de entrenamiento y no puedría generalizar bien nuevos datos de predicción.
+Si tienes datasets individuales, es decir para entrenamiento y otro para test no es necesario el código de arriba, de lo contrario si para evitar **Overfitting** o sobreajuste en los datos por lo que el modelo se ajustaría demasiado a los datos de entrenamiento y no puedría generalizar bien nuevos datos de predicción.
 
 ```sh
 from sklearn.linear_model import LinearRegression
