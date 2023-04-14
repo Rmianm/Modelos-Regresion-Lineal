@@ -1,3 +1,4 @@
 # Regresión Lineal con Machine Learning
 
-![Logo de Regresión Lineal](https://cdn-icons-png.flaticon.com/512/3550/3550226.png)
+![Logo de Regresión Lineal](https://image.flaticon.com/icons/png/512/1529/1529754.png)
+
