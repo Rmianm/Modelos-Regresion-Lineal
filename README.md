@@ -1,4 +1,4 @@
-# Regresión Lineal con Machine Learning
+## Regresión Lineal con Machine Learning
 
 A continuación se explicara algunos códigos que se encuentran presentes en los archivos que he subido.
 
@@ -21,7 +21,9 @@ Cuando has iniciado el entrenamiento debes dividir los datos en entrenamiento y 
 x_train, x_test, y_train, y_test = train_test_split(X,Y,test_size= 0.2, random_state= 0)
 ```
 - test_size me define el porcentaje que utilizaré para entrenar, si eliges 0.2 es decir que el entrenamiento será el 80% y 30% para prueba.
-- Random_state lo usamos por si queremos modificar el set de datos para entrenar, o queremos establecer una nueva semilla cada vez que ejecutemos el código; con 0 o cualquier otro numero entero fijo siempre tomaremos los mismos datos aleatorios (los guarda), es decir que si ejecuto de nuevo la linea estos datos permanecerán guardados y no se altera mi modelo, en cambio si establezo el valor de None, la semilla para la generación de números aleatorios se selecciona de forma aleatoria cada vez que se ejecuta el código. 
+- Random_state lo usamos por si queremos modificar el set de datos para entrenar, o queremos establecer una nueva semilla cada vez que ejecutemos el código; con 0 o cualquier otro numero entero fijo siempre tomaremos los mismos datos aleatorios (los guarda), es decir que si ejecuto de nuevo la linea estos datos permanecerán guardados y no se altera mi modelo, en cambio si establezo el valor de None, la semilla para la generación de números aleatorios se selecciona de forma aleatoria cada vez que se ejecuta el código.
+
+Ahora hablemos un poco de el Modelo importado.
 
 ```sh
 from sklearn.linear_model import LinearRegression
@@ -30,7 +32,7 @@ from sklearn.linear_model import LinearRegression
 - lineal_modelo: submódulo para trabajar modelos lineales
 - LinearRegressión: Clase del submódulo, éste a su vez tiene los atributos coef_ que guarda los coeficientes para cada feature o variable de entrada con el que se multiplicará cada entrada, a su vez cuenta con intercept_ que guarda el coeficiente de intercepto o sesgo que se sumará a cada predicción.
 
-después de actulizar esos variables con el método .fit puedes imprimir los coeficientes, ejemplo:
+Después de que hayas entrenado el modelo con el método .fit puedes imprimir los coeficientes, ejemplo:
 
 Entrenamiento
 ```sh
